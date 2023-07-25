@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="5dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/beer" />
+
+    <TextView
+        android:id="@+id/signTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign"
+        android:fontFamily="@font/gilroy_bold"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/lottie" />
+
+    <TextView
+        android:id="@+id/signDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign2"
+        android:fontFamily="@font/gilroy_medium"
+        android:layout_below="@id/signTitle"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phone"
+        style="@style/TextInputLayoutFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/signDesc"
+        android:hint="@string/hint1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/gilroy_medium"
+            android:imeOptions="actionNext"
+            android:inputType="phone" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        style="@style/TextInputLayoutFilledStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/gilroy_medium"
+            android:imeOptions="actionNext"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cheers"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="@font/gilroy_bold"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp" />
+
+</RelativeLayout>

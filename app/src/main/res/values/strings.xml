@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">is it</string>
+
+    <string name="developer">powered by mwinzi</string>
+
+    <string name="content_description">image</string>
+    <string name="alert">is it</string>
+    <string name="contacts">brewskis</string>
+    <string name="tab1">notifications</string>
+    <string name="tab2">contacts</string>
+
+    <string name="sign">Sign Up</string>
+    <string name="sign2">create account</string>
+    <string name="hint1">phone number</string>
+    <string name="hint2">username</string>
+    <string name="cheers">CHEERS</string>
+
+</resources>

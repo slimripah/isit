@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "616485589091",
+    "project_id": "is-it-3e4dd",
+    "storage_bucket": "is-it-3e4dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616485589091:android:f6c3fdd1762537de542856",
+        "android_client_info": {
+          "package_name": "com.slimripah.isit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616485589091-ai723mo7lsbeuvnvqjn84de3vf8gt0q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7J7VskhtUleTxPGYPrp0z--Y-d7JT1q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616485589091-ai723mo7lsbeuvnvqjn84de3vf8gt0q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
